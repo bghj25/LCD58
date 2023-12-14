@@ -54,7 +54,7 @@ typedef enum
 void LCD(uint8_t val, uint8_t cmd);
 void Init(void);
 void PrintTableChar(uint8_t line, uint8_t pos, uint8_t page, char sym);
-void PrintLine(char* str, uint8_t start_pos, display_line line);
+void PrintLine(char* str, uint8_t start_pos, display_line line, uint8_t len);
 void AddCustomChar(uint8_t code, uint8_t* dots);
 
 #endif
